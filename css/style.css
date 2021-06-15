@@ -54,18 +54,15 @@ body {
     transform: translateY(16px);
 }
 
-.menu_btn.open,
-.menu_btn_closed {
+.menu_btn.open .menu_btn_closed {
     transform: translateX(-50px);
     background: transparent;
 }
 
-.menu_btn.open,
-.menu_btn_closed::before {
+.menu_btn.open .menu_btn_closed::before {
     transform: rotate(45deg) translate(35px, -35px);
 }
 
-.menu_btn.open,
-.menu_btn_closed::after {
+.menu_btn.open .menu_btn_closed::after {
     transform: rotate(-45deg) translate(35px, 35px);
 }
