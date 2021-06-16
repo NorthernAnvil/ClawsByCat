@@ -1,25 +1,51 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-h2 {
-    font-family: 'Satisfy', cursive;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    max-width: 1600px;
-    padding-left: 128px;
-    padding-right: 128px;
-}
-
-
-/* Hamburger menu 
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    h2 {
+        font-family: 'Satisfy', cursive;
+        font-size: 35px;
+    }
+    
+    .container {
+        max-width: 1600px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin: 0 auto;
+    }
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    header .nav {
+        display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(4, auto);
+    }
+    
+    a {
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    main .top {
+        min-height: 100vh;
+        display: flex;
+    }
+    /* Hamburger menu 
 
 .menu_btn {
     position: relative;
