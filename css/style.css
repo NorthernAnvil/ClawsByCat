@@ -1,3 +1,24 @@
+.container-nav,
+.container-mid {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header .container-mid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
 /* Hamburger menu 
 
 .menu_btn {
