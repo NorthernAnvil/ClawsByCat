@@ -4,14 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: darkgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
 h2 {
     font-family: 'Satisfy', cursive;
 }
