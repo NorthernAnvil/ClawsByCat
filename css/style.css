@@ -12,6 +12,10 @@ body {
     min-height: 100vh;
 }
 
+h2 {
+    font-family: 'Satisfy', cursive;
+}
+
 
 /* Hamburger menu 
 
