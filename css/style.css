@@ -13,9 +13,30 @@ header {
     width: 100%;
 }
 
-header .container-mid {
+header .container-nav {
     padding-top: 30px;
     padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container-nav h2 {
+    font-size: 30px;
+}
+
+header .container-nav nav {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, auto);
+}
+
+header .container-nav nav a {}
+
+main section .container-mid {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 
