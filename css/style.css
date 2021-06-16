@@ -13,7 +13,7 @@ body {
 }
 
 
-/* Hamburger menu */
+/* Hamburger menu 
 
 .menu_btn {
     position: relative;
@@ -66,3 +66,5 @@ body {
 .menu_btn.open .menu_btn_closed::after {
     transform: rotate(-45deg) translate(35px, 35px);
 }
+
+*/
