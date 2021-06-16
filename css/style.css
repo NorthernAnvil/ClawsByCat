@@ -8,6 +8,16 @@ h2 {
     font-family: 'Satisfy', cursive;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    max-width: 1600px;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
 
 /* Hamburger menu 
 
