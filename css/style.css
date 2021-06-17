@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding-left: 100px;
     padding-right: 100px;
+    width: 100%;
 }
 
 header {
@@ -11,6 +12,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    background-color: black;
 }
 
 header .container-nav {
@@ -22,6 +24,7 @@ header .container-nav {
 
 header .container-nav h2 {
     font-size: 30px;
+    color: #fff;
 }
 
 header .container-nav nav {
@@ -30,13 +33,15 @@ header .container-nav nav {
     grid-template-columns: repeat(4, auto);
 }
 
-header .container-nav nav a {}
+header .container-nav nav a {
+    text-decoration: none;
+    color: #fff;
+}
 
 main section .container-mid {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    width: 100%;
 }
 
 
