@@ -29,10 +29,11 @@ header .logo {
 
 header .container-nav h2 {
     font-size: 30px;
-    color: #fff;
+    color: white;
 }
 
 header .container-nav nav {
+    padding-right: 120px;
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(4, auto);
@@ -44,6 +45,18 @@ header .container-nav nav a {
 }
 
 main section .container-mid {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: teal;
+}
+
+main .container-mid h1 {
+    color: white;
+}
+
+main section.middle {
+    position: relative;
     min-height: 100vh;
     display: flex;
     align-items: center;
