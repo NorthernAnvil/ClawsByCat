@@ -22,6 +22,11 @@ header .container-nav {
     justify-content: space-between;
 }
 
+header .logo {
+    color: #fff;
+    padding-left: 150px;
+}
+
 header .container-nav h2 {
     font-size: 30px;
     color: #fff;
