@@ -9,10 +9,9 @@
 
 header {
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    background-color: black;
+    opacity: 0.7;
+    z-index: 99;
 }
 
 header .container-nav {
@@ -20,11 +19,7 @@ header .container-nav {
     padding-bottom: 30px;
     display: flex;
     justify-content: space-between;
-}
-
-header .logo {
-    color: #fff;
-    padding-left: 150px;
+    position: relative;
 }
 
 header .container-nav h2 {
@@ -41,18 +36,20 @@ header .container-nav nav {
 
 header .container-nav nav a {
     text-decoration: none;
-    color: #fff;
+    color: white;
 }
 
 main section .container-mid {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-color: teal;
+    background-image: url(/img/nail.jpg);
+    background-size: cover;
 }
 
 main .container-mid h1 {
     color: white;
+    z-index: 1;
 }
 
 main section.middle {
