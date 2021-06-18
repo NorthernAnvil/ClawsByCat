@@ -187,10 +187,9 @@ h4:hover {
     grid-template-columns: repeat(3, auto);
 }
 
-@media (max-width: 767) {
-    .box2 {
-        visibility: hidden;
-        clear: both;
+@media (min-width: 767) {
+    .hidemobile {
         display: none;
+        visibility: hidden;
     }
 }
