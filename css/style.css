@@ -242,10 +242,6 @@ h5 {
     font-weight: 700;
 }
 
-body {
-    cursor: none;
-}
-
 @media screen and (max-width: 850px) {
     .box2 nav,
     iframe {
@@ -260,12 +256,6 @@ body {
 }
 
 @media screen and (min-width: 850px) {
-    body {
-        cursor: none;
-    }
-}
-
-@media screen and (min-width: 850px) {
     .cursor {
         width: 20px;
         height: 70px;
@@ -275,11 +265,5 @@ body {
         transform: translate(-50%, -50%);
         background-image: linear-gradient(red, black);
         pointer-events: none;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    body {
-        cursor: auto;
     }
 }
