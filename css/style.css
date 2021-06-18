@@ -164,6 +164,7 @@ video {
 .hover:hover,
 h4:hover {
     transform: scale(1.5);
+    cursor: none;
 }
 
 li {
@@ -242,17 +243,6 @@ h5 {
     font-weight: 700;
 }
 
-.cursor {
-    width: 20px;
-    height: 70px;
-    border: 2px solid black;
-    border-radius: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    background-image: linear-gradient(red, black);
-    pointer-events: none;
-}
-
 body {
     cursor: none;
 }
@@ -267,5 +257,30 @@ body {
 @media screen and (max-width: 850px) {
     .menu-mob {
         display: grid;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    body {
+        cursor: none;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .cursor {
+        width: 20px;
+        height: 70px;
+        border: 2px solid black;
+        border-radius: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        background-image: linear-gradient(red, black);
+        pointer-events: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        cursor: auto;
     }
 }
