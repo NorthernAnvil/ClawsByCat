@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-div {
-    /* remove at the end */
-    border: 1px black solid;
-    /*  remove at the end */
-    margin: 0 auto;
-}
-
 .container-top,
 .container-mid,
 .container-bot {
@@ -178,4 +171,5 @@ h4:hover {
     margin: 0;
     align-content: center;
     justify-content: left;
+    gap: 20px;
 }
