@@ -1,2 +1,2 @@
-let myTitle = document.getElementById('title');
+myTitle = document.getElementById('anim');
 console.log(myTitle);
