@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-div {
-    /* remove at the end */
-    border: 1px black solid;
-    /*  remove at the end */
-    margin: 0 auto;
-}
-
 .container-top,
 .container-mid,
 .container-bot {
@@ -193,24 +186,70 @@ li {
 }
 
 .menu-mob {
+    position: absolute;
+    width: 100%;
     display: none;
     list-style: none;
     background-repeat: no-repeat;
-    z-index: 100;
+    padding-top: 20%;
+    justify-content: right;
+    width: 50%;
+    right: 5%;
+}
+
+.services1 {
+    background: url(/img/nails-5730756_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+}
+
+.services2 {
+    background: url(/img/eye-2153580_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+}
+
+.services3 {
+    background: url(/img/eye-3150089.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+}
+
+article div {
+    display: grid;
+    align-content: center;
+    justify-content: right;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
     justify-content: right;
     align-content: center;
     padding-right: 5%;
-    background-position: right;
+    grid-gap: 50px;
 }
 
-@media screen and (max-width: 767px) {
+h5 {
+    z-index: 100;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 850px) {
     .box2 nav,
     iframe {
         display: none;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 850px) {
     .menu-mob {
         display: grid;
     }
