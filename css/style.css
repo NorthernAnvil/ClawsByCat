@@ -17,6 +17,7 @@ div {
     padding-right: 10%;
     width: 100%;
     padding: 10px;
+    transition: 0.5;
 }
 
 a {
@@ -178,7 +179,18 @@ h4:hover {
     margin: 0;
     align-content: center;
     justify-content: left;
-    gap: 5%;
+    gap: 1%;
 }
 
-992 688
+.map {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+@media (max-width: 767) {
+    .box2 {
+        visibility: hidden;
+        clear: both;
+        display: none;
+    }
+}
