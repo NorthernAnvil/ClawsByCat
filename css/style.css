@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-</style>div {
+div {
     /* remove at the end */
     border: 1px black solid;
     /*  remove at the end */
@@ -36,6 +36,14 @@ h3 {
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+}
+
+h5 {
+    z-index: 100;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 h2,
@@ -158,7 +166,16 @@ video {
     grid-gap: 50px;
 }
 
-a:hover,
+.hover:hover,
 h4:hover {
     transform: scale(1.5);
+}
+
+.box3 {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    align-content: center;
+    justify-content: left;
 }
