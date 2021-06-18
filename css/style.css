@@ -20,7 +20,8 @@ div {
     transition: 0.5;
 }
 
-a {
+a,
+li a {
     z-index: 100;
     text-decoration: none;
     color: white;
@@ -187,9 +188,25 @@ h4:hover {
     grid-template-columns: repeat(3, auto);
 }
 
-@media (min-width: 767) {
-    .hidemobile {
+.menu-mob {
+    display: grid;
+    background-image: url(/img/menu.png);
+    background-repeat: no-repeat;
+    z-index: 100;
+    justify-content: right;
+    align-content: center;
+    padding-right: 5%;
+}
+
+@media screen and (max-width: 767px) {
+    .box2 nav,
+    iframe {
         display: none;
-        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu-mob {
+        display: grid;
     }
 }
