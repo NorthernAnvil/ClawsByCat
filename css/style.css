@@ -43,7 +43,7 @@ main section .container-mid {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url(/img/nail.jpg);
+    background-clip url(/img);
     background-size: cover;
 }
 
