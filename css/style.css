@@ -164,7 +164,6 @@ video {
 .hover:hover,
 h4:hover {
     transform: scale(1.5);
-    cursor: none;
 }
 
 li {
