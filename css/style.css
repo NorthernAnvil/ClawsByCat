@@ -25,7 +25,7 @@ div {
     height: 65%;
 }
 
-.box1,
+.logo,
 .box4 {
     width: 30%;
 }
@@ -50,16 +50,21 @@ div {
     min-height: 100vh;
 }
 
-.box2 {
+.box2 nav {
+    height: 100%;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 50px;
     grid-template-columns: repeat(4, auto);
-    align-items: center;
     justify-content: right;
-    padding-right: 2%;
+    align-content: flex-end;
+    padding-right: 20px;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.video .container-top h3 {
+    align-content: center;
 }
