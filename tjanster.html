@@ -9,10 +9,11 @@
 </head>
 
 <body>
-    <video src="/Video/nails1.mp4" muted loop autoplay></video>
-    <div class="overlay"></div>
-
     <div class="content">
+        <video src="/Video/nails1.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+
+
         <div class="container-top">
             <div class="logo">
                 <h2>
@@ -21,12 +22,22 @@
             </div>
 
             <div class="box2">
-                <nav>
-                    <a class="hover" href="/index.html">Hem</a>
-                    <a class="hover" href="/tjanster.html">Tjänster</a>
-                    <a class="hover" href="/portfolio.html">Portfoljo</a>
-                    <a class="hover" href="/kontakt.html">Kontakt</a>
+                <nav class="hidemobile">
+                    <a class="hover" class="hidemobile" href="/index.html">Hem</a>
+                    <a class="hover" class="hidemobile" href="/tjanster.html">Tjänster</a>
+                    <a class="hover" class="hidemobile" href="/portfolio.html">Portfoljo</a>
+                    <a class="hover" class="hidemobile" href="/kontakt.html">Kontakt</a>
                 </nav>
+                <div class="menu-mob">
+                    <h3>
+                        <ul>
+                            <li><a class="hover" href="/index.html">Hem</a></li>
+                            <li><a class="hover" href="/tjanster.html">Tjänster</a></li>
+                            <li><a class="hover" href="/portfolio.html">Portfoljo</a></li>
+                            <li><a class="hover" href="/kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </h3>
+                </div>
             </div>
 
         </div>
@@ -35,7 +46,7 @@
 
 
 
-        <div class="container-mid">
+        <div class="container-mid" class="hidemobile">
             <div class="box3">
                 <h3> <span>YOU</span> are <span>BEAUTYFUL</span> <br>and so are you <span> NAILS</span></h3>
             </div>
@@ -54,6 +65,7 @@
             </div>
         </div>
     </div>
+
 </body>
 
 </html>

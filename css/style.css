@@ -173,6 +173,10 @@ h4:hover {
     transform: scale(1.5);
 }
 
+li {
+    list-style: none;
+}
+
 .map {
     display: flex;
     width: 100%;
@@ -189,13 +193,14 @@ h4:hover {
 }
 
 .menu-mob {
-    display: grid;
-    background-image: url(/img/menu.png);
+    display: none;
+    list-style: none;
     background-repeat: no-repeat;
     z-index: 100;
     justify-content: right;
     align-content: center;
     padding-right: 5%;
+    background-position: right;
 }
 
 @media screen and (max-width: 767px) {
