@@ -15,6 +15,7 @@ div {
     padding-right: 100px;
     width: 100%;
     padding: 10px;
+    z-index: 10;
 }
 
 .container-top {
@@ -69,4 +70,17 @@ a {
     display: grid;
     align-content: flex-end;
     padding-left: 20px;
+}
+
+video {
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8
 }
