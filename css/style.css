@@ -242,6 +242,21 @@ h5 {
     font-weight: 700;
 }
 
+.cursor {
+    width: 20px;
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(red, black);
+    pointer-events: none;
+}
+
+body {
+    cursor: none;
+}
+
 @media screen and (max-width: 850px) {
     .box2 nav,
     iframe {
